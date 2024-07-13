@@ -4,7 +4,7 @@ export const searchParams = new URLSearchParams({
   key: '44778676-049b64250b69e7d3e774d3724',
   image_type: 'photo',
   orientation: 'horizontal',
-  safesearch: 'true'
+  safesearch: "true",
 });
 
 export function getImg(searchValue) {

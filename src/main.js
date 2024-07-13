@@ -28,7 +28,7 @@ function handlerSubmit(evt) {
       createMarkup(data.hits);
       modal.refresh();
     })
-    .catch(onFetchError())
+    .catch(onFetchError)
     .finally(() => {
       form.reset();
       loader.classList.remove('loader');
