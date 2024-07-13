@@ -8,7 +8,7 @@ export const searchParams = new URLSearchParams({
 });
 
 export function getImg(searchValue) {
-  return fetch(`https://pixabay.com/api?q=${searchValue}&${searchParams}`)
+  return fetch(`https://pixabay.com/api/?q=${searchValue}&${searchParams}`)
     .then((res) => {
       if (!res.ok) {
         throw new Error(res.status);
