@@ -6,7 +6,6 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.js-form');
-const list = document.querySelector('.js-list');
 const loader = document.querySelector('.js-loader');
 
 form.addEventListener('submit', handlerSubmit);
